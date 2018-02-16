@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Swapi Demo</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<header>
+		<div class="jumbotron jumbotron-fluid">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-sm-12">
+  					
+  				</div>
+  			</div>
+  		</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-sm-2 col-md-2 col-lg-2">
+					<img src="assets/img/amidala.jpeg" alt="Padmé Amidala" class="img-thumbnail" data-number='35' data-toggle="modal" data-target=".bd-example-modal-lg">
+				</div>
+				<div class="col-sm-2 col-md-2 col-lg-2">
+					<img src="assets/img/anakin.jpeg" alt="Anakin Skywalker" class="img-thumbnail" data-number='11' data-toggle="modal" data-target=".bd-example-modal-lg">
+				</div>
+				<div class="col-sm-2 col-md-2 col-lg-2">
+					<img src="assets/img/bb8.jpeg" alt="BB8" class="img-thumbnail" data-number='87' data-toggle="modal" data-target=".bd-example-modal-lg">
+				</div>
+				<div class="col-sm-2 col-md-2 col-lg-2">
+					<img src="assets/img/c3.jpeg" alt="C-3PO" class="img-thumbnail" data-number='2' data-toggle="modal" data-target=".bd-example-modal-lg">
+				</div>
+				<div class="col-sm-2 col-md-2 col-lg-2">
+					<img src="assets/img/chewbacca.jpeg" alt="Chewbacca" class="img-thumbnail" data-number='13' data-toggle="modal" data-target=".bd-example-modal-lg">
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-sm-2 col-md-2 col-lg-2">
+					<img src="assets/img/kenobi.jpeg" alt="Obi-Wan Kenobi" class="img-thumbnail" data-number='10' data-toggle="modal" data-target=".bd-example-modal-lg">
+				</div>
+				<div class="col-sm-2 col-md-2 col-lg-2">
+					<img src="assets/img/lando.jpeg" alt="Lando Calrissian" class="img-thumbnail" data-number='25' data-toggle="modal" data-target=".bd-example-modal-lg">
+				</div>
+				<div class="col-sm-2 col-md-2 col-lg-2">
+					<img src="assets/img/leia.jpeg" alt="Leia Organa" class="img-thumbnail" data-number='5' data-toggle="modal" data-target=".bd-example-modal-lg">
+				</div>
+				<div class="col-sm-2 col-md-2 col-lg-2">
+					<img src="assets/img/luke.jpeg" alt="Luke Skywalker" class="img-thumbnail" data-number='1' data-toggle="modal" data-target=".bd-example-modal-lg">
+				</div>
+				<div class="col-sm-2 col-md-2 col-lg-2">
+					<img src="assets/img/solo.jpeg" alt="Han Solo" class="img-thumbnail" data-number='14' data-toggle="modal" data-target=".bd-example-modal-lg">
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-sm-2 col-md-2 col-lg-2">
+					<img src="assets/img/r2.jpeg" alt="R2-D2" class="img-thumbnail" data-number='3' data-toggle="modal" data-target=".bd-example-modal-lg">
+				</div>
+				<div class="col-sm-2 col-md-2 col-lg-2">
+				<img src="assets/img/r5.jpeg" alt="R5-D4" class="img-thumbnail" data-number='8' data-toggle="modal" data-target=".bd-example-modal-lg">
+				</div>
+				<div class="col-sm-2 col-md-2 col-lg-2">
+					<img src="assets/img/vader.jpeg" alt="Darth Vader" class="img-thumbnail" data-number='4' data-toggle="modal" data-target=".bd-example-modal-lg">
+				</div>
+				<div class="col-sm-2 col-md-2 col-lg-2">
+					<img src="assets/img/yoda.jpeg" alt="Yoda" class="img-thumbnail" data-number='20' data-toggle="modal" data-target=".bd-example-modal-lg">
+				</div>
+			</div>
+		</div>
+	</section>
+
+  <!-- Modal -->
+  <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+    	<div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Star Wars Character</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+       </div>
+      <div class="modal-content">
+        <!-- Informacion del personaje-->
+      </div>
+    </div>
+  </div>
+  <strong></strong>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
